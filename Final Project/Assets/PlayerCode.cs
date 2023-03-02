@@ -98,6 +98,7 @@ public class PlayerCode : MonoBehaviour,IPunObservable
         sr.flipX = true;
     }
 
+    [PunRPC]
     void OnDirectionChange_RIGHT()
     {
         sr.flipX = false;
@@ -141,7 +142,6 @@ public class PlayerCode : MonoBehaviour,IPunObservable
 
     }
 
-/*
     void OnColisionExit2D(Collision2D col)
     {
         if (col.gameObject.tag == "Gro")
@@ -149,7 +149,7 @@ public class PlayerCode : MonoBehaviour,IPunObservable
             IsGrounded = false;
         }
 
-    } */
+    } 
 
     void jump()
     {

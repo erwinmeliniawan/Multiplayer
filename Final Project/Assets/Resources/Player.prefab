@@ -423,6 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2cffb8ab9e0c22478a452d4ef48f72d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slider: {fileID: 0}
   healt: 100
 --- !u!61 &4752753259692983013
 BoxCollider2D:

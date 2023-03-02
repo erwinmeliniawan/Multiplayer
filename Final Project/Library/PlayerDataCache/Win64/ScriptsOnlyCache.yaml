@@ -31,7 +31,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -1719,4 +1718,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainScenes.unity
   - Assets/Scenes/GameScenes.unity
-  playerPath: D:/WPG/Game/Final Project/t2/Final Project.exe
+  playerPath: D:/WPG/Game/Final Project/Testing/New folder/Final Project.exe

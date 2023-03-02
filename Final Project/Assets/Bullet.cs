@@ -19,15 +19,15 @@ public class Bullet : MonoBehaviourPun
         }
     }
 
-    //public void OnTriggerEnter2D(Collider2D collision)
-    //{
-    //    if (collision.gameObject.tag == "Player")
-    //    {
-    //        PlayerHealt player = collision.gameObject.GetComponentInParent<PlayerHealt>();
-    //        player.TakeDamage(20);
-    //        GameObject.Destroy(this.gameObject);
-    //    }
-    //}
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            PlayerHealt player = collision.gameObject.GetComponentInParent<PlayerHealt>();
+            player.TakeDamage(20);
+            GameObject.Destroy(this.gameObject);
+        }
+    }
  
 
     void Update()
